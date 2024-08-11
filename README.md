@@ -1,124 +1,58 @@
-![image](https://github.com/user-attachments/assets/d91b1db5-6a54-4042-8d94-e308040e5297)
+# Main Bot
+This bot is designed to be used in conjunction with 
+our various media forms, such as YouTube and Medium. It is not intended to be used as a standalone product.
 
-English language:
+## Join Our Community
+We love connecting with our audience! Join us on the following links:
+1. Discord: https://discord.gg/wNYYGaMGfd
+2. Telegram: https://t.me/TradeOxySupportBot
+3. TradeOxy Platform: https://www.tradeoxy.com/
+4. Upcoming Content: https://tradeoxy.notion.site/Content-Creation-Roadmap-5f896060f39341fd9539bcaced8c3b5d
+5. Upcoming Features: https://tradeoxy.notion.site/3f9666718dc24e38bbd4a56a741287ae?v=d810cfa006f54bafa4bbbe3674fefa98&pvs=74
+6. Custom Trading Bot development - https://tradeoxy.notion.site/Trading-Bot-Pricing-Guide-f0ff11b0604b4b998cba2b8da6a129cb?pvs=4
 
+## How To Guides and Tutorials
+### YouTube
+#### Series: Build Your Own MetaTrader 5 Python Trading Bot
+YouTube channel [TradeOxy](https://www.youtube.com/@tradeoxy) contains tons of helpful content on how
+to use the Algo Trading Bot or build one for yourself. Check out these episodes:
+1. [Secure Setup](https://www.youtube.com/watch?v=jpw3JltNMg0)
+2. [Connect To MetaTrader 5 with Python](https://www.youtube.com/watch?v=EkP7iAZoMEw&t=2s)
+3. [Retrieve 50000 Candlesticks from MetaTrader](https://www.youtube.com/watch?v=KZmVek6EDCg)
+4. [Add the EMA Indicator to Your Algorithmic AutoTrading Bot](https://youtu.be/QqLjXecrKhc)
+5. [How to Install TALib on Windows](https://youtu.be/jnxqu9MhBIE)
+6. [Build Your Own AutoTrading Bot EMA Cross Detector](https://youtu.be/lbdO_UKEzQU)
+7. [How to Trade the EMA Cross Strategy with Your AutoTrading Bot](https://youtu.be/A6RTl0_13pw)
+8. [How to Convert Your AutoTrading Bot Strategy into BUY and SELL Signals](https://youtu.be/21NtSVuPaZw)
+9. [How to Calculate Lot Size for Your MetaTrader 5 Python Trading Bot](https://youtu.be/fveyPFreenk)
+10. [How to Create Orders with Your MetaTrader Python Trading Bot](https://youtu.be/fveyPFreenk)
+11. [How to Create Orders with Your MetaTrader 5 Python Trading Bot Pt 2](https://youtu.be/nn8XQgFN5W8)
+12. [Advanced Order Management with MetaTrader 5 Python Trading Bot](https://youtu.be/cWfBrDQj_5s)
+13. [Never Miss a CandleStick with Your MetaTrader 5 Python Trading Bot](https://youtu.be/ecK0ZbMWVIA)
+14. [Manage Every Trade with Your MetaTrader 5 Python Trading Bot](https://youtu.be/Q5GQFxk1IJI)
+15. [Multi-Strategy Trading Accounts with MetaTrader 5 Python Trading Bot](https://youtu.be/4NDO81n-EpA)
 
-How do I launch a project?
+#### Series: All About Technical Indicators
+1. [How to Install TALib on Windows](https://youtu.be/jnxqu9MhBIE)
+2. [All About the MACD: Moving Average Convergence/Divergence](https://youtu.be/U33hGglLo2M)
+3. [Build Your Own MACD Indicatr with MetaTrader 5 and Python](https://youtu.be/AbXY0QtAIp4)
+4. [Build Your Own MACD Crossover Strategy with MetaTrader 5 and Python](https://youtu.be/3awJkVasQvs)
+5. [Build Your Own MACD Zero Cross Strategy with MetaTrader 5 and Python](https://youtu.be/vEmidWrH9aA)
 
-To test the bot in demo mode, run start.bat
-To use the bot, change the configuration in the .env file (it was created only for the OKKHB exchange, by analogy, take the API keys of the Binance, Bybit, etc. exchanges and create a cluster in .env, take cluster examples from the same file
-The neural network project for cryptotrading is aimed at developing and implementing a system using machine learning methods to analyze the cryptocurrency market and make trading decisions. This system provides users with automatic recommendations for buying and selling cryptocurrencies based on complex algorithms and analysis of large amounts of data.
-The project supports the API of all popular exchanges
-OKX, Bybit, Binance, etc.
-The developers of this project are leading crypto investors together with a team of programmers.
-Also a unique feature: support for crypto wallets (including extensions)
-- Exodus
-- Electrum
-- Atomic
-- Trust
-- Metamask
-- Phantom
-and many others
+#### Series: Build Your Own Crypto Trading Bot with Binance and Python
+1. [How to Connect to Binance with Python](https://youtu.be/NBL-Id7vNl8)
+2. [How to Retrieve Historical Data from Binance with Python](https://youtu.be/VsDdOuNV_Ng)
+3. [How to Calculate the RSI Indicator with Python](https://youtu.be/uac7RDDxhQo)
+4. [Build Your Own RSI Strategy with Python and Binance](https://youtu.be/0lrrEHY3A2M)
 
+### Blog Articles
+Medium articles are a great way to learn about the Algo Trading Bot and how to use it. If you're into text based tutorials, 
+check out these articles:
 
-#### Project objectives
-
-- Automation of trading operations: Creation of a system capable of independently making decisions on the purchase and sale of cryptocurrencies.
-
-- - Increase profits: Optimize trading strategies to maximize profits through the use of predictive models.
-- Risk reduction: The application of risk management methods to minimize possible losses.
-
-#### Technical aspects
-1. Data collection
- - Historical data on cryptocurrencies (prices, trading volumes, capitalization).
- - Market indicators and signals (RSI, MACD, SMA).
- - News and social media (Twitter, Reddit, news sites).
-
-2. Data preprocessing
- - Clearing data from noise and anomalies.
- - Normalization and standardization of data.
- - Creation of time series and selection of significant features.
-
-3. Neural network architecture
- - Neural network type: LSTM (Long Short-Term Memory) for time series analysis.
- - Neural network layers: An input layer, several hidden LSTM layers, a fully connected output layer.
- - Hyperparameters: Layer sizes, learning rate, number of epochs, etc.
-
-4. Model Training
- - Data separation into training, validation and test samples.
- - Using optimization methods (Adam, RMSProp).
- - Regularization to prevent overfitting (dropout, L2-regularization
-
- - 5. Evaluation of the model
- - Evaluation metrics: MAE (Mean Absolute Error), RMSE (Root Mean Squared Error), R^2.
- - Cross-validation to check the stability of the model.
- - Backtesting: testing the model on historical data to assess its effectiveness.
-
-6. Integration and deployment
- - Development of an API for interacting with cryptocurrency exchanges.
- - Creating a simple user interface for data visualization and system management.
- - Deployment of the model on cloud platforms (AWS, Google Cloud).
-
- 
-   Русский язык:
-
-
-    Как запустить проект?
-Для проверки бота в демо режиме, запустите start.bat
-Для использования бота - измените конфигурацию в .env файле (она создана только для биржы OKXБ по аналогии возьмите API-keys бирж Binance, Bybit и т.д. и создайте кластер в .env, примеры кластера возьмите из этого же файла
-Проект нейросети для криптотрейдинга направлен на разработку и внедрение системы, использующей методы машинного обучения для анализа криптовалютного рынка и принятия торговых решений. Эта система предоставляет пользователям автоматические рекомендации по покупке и продаже криптовалют, основываясь на сложных алгоритмах и анализе больших объемов данных.
-Проект поддерживает API всех популярных бирж
-OKX, Bybit, Binance и др.
-Разработчики данного проекта - ведущие криптоинвесторы совместно с командой программистов.
-Также уникальная функция: поддержка криптокошельков (расширений в т.ч.)
-- Exodus
-- Electrum
-- Atomic
-- Trust
-- Metamask
-- Phantom
-и множество других
-
-
-#### Цели проекта
-- Автоматизация торговых операций: Создание системы, способной самостоятельно принимать решения о покупке и продаже криптовалют.
-- Увеличение прибыли: Оптимизация стратегий торговли для максимизации прибыли за счет использования прогнозирующих моделей.
-- Снижение рисков: Применение методов управления рисками для минимизации возможных убытков.
-
-#### Технические аспекты
-1. Сбор данных
-   - Исторические данные по криптовалютам (цены, объемы торгов, капитализация).
-   - Рыночные индикаторы и сигналы (RSI, MACD, SMA).
-   - Новости и социальные медиа (Twitter, Reddit, новостные сайты).
-
-2. Предобработка данных
-   - Очистка данных от шумов и аномалий.
-   - Нормализация и стандартизация данных.
-   - Создание временных рядов и выборка значимых признаков.
-
-3. Архитектура нейросети
-   - Тип нейросети: LSTM (Long Short-Term Memory) для анализа временных рядов.
-   - Слои нейросети: Входной слой, несколько скрытых слоев LSTM, полносвязный выходной слой.
-   - Гиперпараметры: Размеры слоев, скорость обучения, количество эпох и т.д.
-
-4. Обучение модели
-   - Разделение данных на обучающую, валидационную и тестовую выборки.
-   - Использование методов оптимизации (Adam, RMSprop).
-   - Регуляризация для предотвращения переобучения (dropout, L2-регуляризация).
-
-5. Оценка модели
-   - Метрики оценки: MAE (Mean Absolute Error), RMSE (Root Mean Squared Error), R^2.
-   - Кросс-валидация для проверки устойчивости модели.
-   - Бэктестинг: тестирование модели на исторических данных для оценки ее эффективности.
-
-6. Интеграция и развертывание
-   - Разработка API для взаимодействия с биржами криптовалют.
-   - Создание простого пользовательского интерфейса для визуализации данных и управления системой.
-   - Развертывание модели на облачных платформах (AWS, Google Cloud).
-  
-   - ![image](https://github.com/user-attachments/assets/bdde2be6-8957-4e2b-a264-b3d491a28ecb)
-  
-   - ![image](https://github.com/user-attachments/assets/be906e85-e0a0-43e2-bc3d-7d9890d5ec9b)
-
-   - 
+#### Technical Indicators
+1. [MACD Indicator Explained, with Examples, Strategies, Limitations, and a little bit of Code](https://medium.com/trading-data-analysis/macd-indicator-explained-with-examples-strategies-limitations-and-a-little-bit-of-code-38d0188f80b9)
+2. [How to Add the MACD Indicator to Your MetaTrader 5 Python Trading Bot](https://medium.com/@appnologyjames/how-to-add-the-macd-indicator-to-your-metatrader-5-python-trading-bot-1443845c41e4)
+3. [Make Your Own MACD Crossover Strategy with MetaTrader 5 and Python](https://medium.com/@appnologyjames/make-your-own-macd-crossover-strategy-with-metatrader-5-and-python-98daa630261)
+4. [Build Your Own MACD Zero Cross Strategy using MetaTrader and Python](https://medium.com/@appnologyjames/build-your-own-macd-zero-cross-strategy-using-metatrader-and-python-ba1c67b0d8ba)
+5. [Relative Strength Index (RSI) Indictor Explained, with Examples, Strategies and a little bit of Code](https://medium.com/@appnologyjames/relative-strength-index-rsi-indicator-explained-with-examples-strategies-and-a-little-bit-of-d2973a74198a)
 
