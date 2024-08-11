@@ -16,7 +16,7 @@ How do I launch a project?
 
 
 To test the bot in demo mode, run start.bat
-To use the bot, change the configuration in the .env file (it was created only for the OKKHB exchange, by analogy, take the API keys of the Binance, Bybit, etc. exchanges and create a cluster in .env, take cluster examples from the same file
+To use the bot, change the configuration in the .env file (it was created only for the OKX exchange, by analogy, take the API keys of the Binance, Bybit, etc. exchanges and create a cluster in .env, take cluster examples from the same file
 The neural network project for cryptotrading is aimed at developing and implementing a system using machine learning methods to analyze the cryptocurrency market and make trading decisions. This system provides users with automatic recommendations for buying and selling cryptocurrencies based on complex algorithms and analysis of large amounts of data.
 The project supports the API of all popular exchanges
 OKX, Bybit, Binance, etc.
