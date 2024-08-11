@@ -2,7 +2,6 @@
 
 
 
-![image](https://github.com/user-attachments/assets/2e4d4b3c-28fd-4c81-acae-7fd35794c154)
 
 
 
